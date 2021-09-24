@@ -11,7 +11,7 @@ ___
 
 ## Why
 
-Its nice to have a convenient way to change your soup into dict.
+Its nice to have a convenient way to change your soup into dict. oh yeah
 
 ## Installation
 
