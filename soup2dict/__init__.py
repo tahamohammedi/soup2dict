@@ -94,7 +94,7 @@ def _convert_tag(instance: element.Tag) -> dict:
     tag_result['name'] = instance.name
     tag_result['attrs'] = instance.attrs
     if instance.string != None:
-        tag_result['text'] = instance.string
+        tag_result['text'] = instance.string.strip()
     else:
         tag_result['text'] = ""
     tag_result.update(convert(instance.contents))
